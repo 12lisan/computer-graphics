@@ -2,9 +2,9 @@
 Tic-tac-toe game
 Tic-Tac-Toe is a classic two-player strategy game played on a 3x3 grid where opponents take turns marking X or O in empty cells, aiming to get three of their symbols in a row (horizontally, vertically, or diagonally); if all cells fill without a winner, the game ends in a draw. This implementation enhances the traditional game with sleek visuals, smooth animations, and both single-player (against AI) and two-player modes, complete with a dynamic menu system, score tracking, and interactive feedback. The polished design retains the simplicity of the original while delivering a more engaging and modern user experience.
        
-Key Features Implemented
+# Key Features Implemented
 
-1 Game Engine Foundation
+# 1 Game Engine Foundation
    
    -Created a game state system with menu, single-player, two-player, and game-over states
    
@@ -12,7 +12,7 @@ Key Features Implemented
    
    -Added win/draw detection logic for all possible combinations
 
-2 Visual Enhancements
+# 2 Visual Enhancements
    
    -Designed a polished UI with rounded corners, shadows, and animations
    
@@ -22,7 +22,7 @@ Key Features Implemented
   
    -Implemented pulsing text and smooth transitions
 
-3 Gameplay Features
+# 3 Gameplay Features
   
   -Single-player mode with AI opponent (currently random moves)
   
@@ -32,9 +32,9 @@ Key Features Implemented
   
   -Winner/draw detection with celebration screen
 
-Implementation Process
+# Implementation Process
 
-1 Initial Setup
+# 1 Initial Setup
   
   -Used OpenGL with GLUT for rendering
   
@@ -42,7 +42,7 @@ Implementation Process
   
   -Created game state structure to track all game variables
 
-2 Core Game Logic
+# 2 Core Game Logic
   
   -Implemented initGame() to reset the board
   
@@ -50,7 +50,7 @@ Implementation Process
   
   -Added simple AI with makeAIMove() (currently makes random moves)
 
-3 Rendering System
+# 3 Rendering System
   
   -Developed drawing functions for all game elements
   
@@ -64,7 +64,7 @@ Implementation Process
   
   -Created separate rendering paths for each game state
 
-4 UI/UX Enhancements
+# 4 UI/UX Enhancements
   
   -Added animated menu with pulsing buttons
   
@@ -74,13 +74,13 @@ Implementation Process
   
   -Added visual feedback for current player turn
 
-5 Input Handling
+# 5 Input Handling
   
   -Set up mouse input for menu navigation and board moves
   
   -Added proper state transitions between game modes
 
-6 Polish and Effects
+# 6 Polish and Effects
   
   -Implemented various animations:
   
@@ -92,15 +92,15 @@ Implementation Process
   
   -Added visual depth with shadows and gradients
 
-Technical Highlights
+# Technical Highlights
 
-1 Object-Oriented Approach
+# 1 Object-Oriented Approach
   
   -Used structs to organize related data (Game, Color)
  
   -Created enum types for game states and players
 
-2 Visual Effects
+# 2 Visual Effects
   
   -Implemented time-based animations using glutGet(GLUT_ELAPSED_TIME)
   
@@ -108,7 +108,7 @@ Technical Highlights
   
   -Created smooth color transitions and pulsing effects
 
-3 State Management
+# 3 State Management
   
   -Clean separation between different game screens
   
