@@ -111,5 +111,6 @@ Technical Highlights
 3 State Management
   
   -Clean separation between different game screens
+  
   -Proper handling of game state transitions
 
